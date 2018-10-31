@@ -5,12 +5,11 @@ module.exports = (grunt) ->
 
   grunt.initConfig
     coffee:
-      migrate:
+      glob_to_multiple:
         expand: true,
-        flatten: false,
+        flatten: true,
         cwd: './',
-        src: ['./migrations/*.coffee'],
-        dest: './',
+        sourceMap: true,
+        src: ['./src/*.coffee'],
+        dest: './build',
         ext: '.js'
-        options:
-          bare:true

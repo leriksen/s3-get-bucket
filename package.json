@@ -13,9 +13,8 @@
     "aws-sdk": "^2.345.0"
   },
   "devDependencies": {
+    "coffeescript": "^2.3.2",
     "grunt": "^1.0.3",
-    "grunt-contrib-jshint": "^2.0.0",
-    "grunt-contrib-nodeunit": "^2.0.0",
-    "grunt-contrib-uglify": "^4.0.0"
+    "grunt-contrib-coffee": "^2.0.0"
   }
 }
